@@ -49,7 +49,7 @@ const Layout = () => {
                             <div className="row">
                                 <div className="top-logo col-xs-12 col-md-3">
                                     <div id="mylogo" className="logo single-level-nav3">
-                                        <a href="http://staging.mandjur.co.id/" className="logo">
+                                        <a href="/" className="logo">
                                             <Image src="http://staging.mandjur.co.id/skin/frontend/base/default/images/logo-new-mandjur.png" alt="PT Mandjur Sehat Abadi" 
                                             width="100%" 
                                             height="100%" 
@@ -103,7 +103,7 @@ const Layout = () => {
                                                         <li><a href="http://staging.mandjur.co.id/quotes">Konfirmasi Pembayaran</a></li>
                                                         <li><a href="http://staging.mandjur.co.id/sales/guest/form/">Status Order</a></li>
                                                         <li><a href="http://staging.mandjur.co.id/prescription/">Kirim Resep</a></li>
-                                                        <li><a href="https://staging.mandjur.co.id/customer/account/login/">Log In</a></li>
+                                                        <li><a href="http://staging.mandjur.co.id/customer/account/login/">Log In</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
