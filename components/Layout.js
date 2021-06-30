@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Header.module.css'
 
 const Layout = () => {
@@ -49,12 +50,14 @@ const Layout = () => {
                             <div className="row">
                                 <div className="top-logo col-xs-12 col-md-3">
                                     <div id="mylogo" className="logo single-level-nav3">
-                                        <a href="/" className="logo">
+                                    <Link href="/">
+                                        <a className="logo">
                                             <Image src="http://staging.mandjur.co.id/skin/frontend/base/default/images/logo-new-mandjur.png" alt="PT Mandjur Sehat Abadi" 
                                             width="100%" 
                                             height="100%" 
                                             />
                                         </a>
+                                    </Link>
                                     </div>
                                     <div className={styles.trustedMobile}>APOTEK TERPERCAYA</div>
                                 </div>
