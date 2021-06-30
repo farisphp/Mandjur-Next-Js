@@ -80,11 +80,13 @@ const Layout = () => {
                                                     <div className="block-cart mini_cart_ajax">
                                                             <div className="block-cart">
                                                                 <div className="top-cart-title">
-                                                                    <a href="https://www.mandjur.co.id/checkout/cart/">
+                                                                    <Link href="/checkout/cart/">
+                                                                    <a>
                                                                         <span className="my-cart">0</span>
                                                                         <span className="title-cart">Shopping cart:</span>
                                                                         <span className="price">Rp0,00</span>				
                                                                     </a>
+                                                                    </Link>
                                                                 </div>
                                                                 <div className="top-cart-content" style={{overflow: "hidden", display: "none"}}>
                                                                     <p className="empty">Mohon maaf keranjang belanjaan anda masih kosong</p>
@@ -100,13 +102,41 @@ const Layout = () => {
                                                 <li className="dropit-trigger">
                                                     <a className="login_click" href="#">Account</a>
                                                     <ul className="dropit-submenu" id="menu_link">
-                                                        <li><a href="https://www.mandjur.co.id/customer/account/">Akun Saya</a></li>
-                                                        <li><a href="https://www.mandjur.co.id/checkout/cart/">Keranjang Belanja</a></li>
-                                                        <li><a href="https://www.mandjur.co.id/checkout/">Kasir</a></li>
-                                                        <li><a href="https://www.mandjur.co.id/quotes">Konfirmasi Pembayaran</a></li>
-                                                        <li><a href="https://www.mandjur.co.id/sales/guest/form/">Status Order</a></li>
-                                                        <li><a href="https://www.mandjur.co.id/prescription/">Kirim Resep</a></li>
-                                                        <li><a href="https://www.mandjur.co.id/customer/account/login/">Log In</a></li>
+                                                        <li>
+                                                            <Link href="/customer/account/">
+                                                                <a>Akun Saya</a>
+                                                            </Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="/checkout/cart/">
+                                                                <a>Keranjang Belanja</a>
+                                                            </Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="/checkout/">
+                                                                <a>Kasir</a>
+                                                            </Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="/quotes">
+                                                                <a>Konfirmasi Pembayaran</a>
+                                                            </Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="/sales/guest/form/">
+                                                                <a>Status Order</a>
+                                                            </Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="/prescription/">
+                                                                <a>Kirim Resep</a>
+                                                            </Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link href="/customer/account/login/">
+                                                                <a>Log In</a>
+                                                            </Link>
+                                                        </li>
                                                     </ul>
                                                 </li>
                                             </ul>
