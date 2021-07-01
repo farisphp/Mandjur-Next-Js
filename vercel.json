@@ -1,0 +1,6 @@
+{
+    "rewrites": [
+      { "source": "/:match*", "destination": "https://www.mandjur.co.id/:match*" }
+    ]
+}
+  
