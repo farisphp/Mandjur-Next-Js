@@ -1,38 +1,45 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Layout from "../components/Layout";
 
 export default function Home() {
   return (
-    <Layout />
-    // <div className={styles.container}>
-    //   <Head>
-    //     <title>Create Next App</title>
-    //     <meta name="description" content="PT Mandjur Sehat Abadi menyediakan berbagai macam obat tradisional dan herbal dengan kualitas terbaik dan informasi akurat" />
-    //     <meta name="keywords" content="Obat, Obat tradisional, Herbal, Jamu, Obat China" />
-    //     <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
-    //     <link rel="icon" href="/favicon.ico" />
-    //   </Head>
-
-    //   <main className={styles.main}>
-    //     <h1 className={styles.title}>
-    //       Welcome to <a href="https://nextjs.org">Next.js!</a>
-    //     </h1>
-    //   </main>
-
-    //   <footer className={styles.footer}>
-    //     <a
-    //       href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Powered by{' '}
-    //       <span className={styles.logo}>
-    //         <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-    //       </span>
-    //     </a>
-    //   </footer>
-    // </div>
+    <div style={{padding: "10px"}}>
+      <div className=" banner_static">
+      <div className="container">
+      <div className="container-inner">
+      <div className="row">
+      <div className="col-xs-4 col-md-4 col-sm-4">
+      <div className="icon-text">
+      <div className="footer-icon-slogan cc_cursor" style={{margin: "auto"}}><Image className="footer-icon-slogan-img" src="https://www.mandjur.co.id/media/wysiwyg/icon-slogan-1.jpg" alt="" width={114} height={114} layout="responsive" /></div>
+      <div className="text">
+      <h2><a href="#">REGISTERED</a></h2>
+      <p>Produk-produk berkualitas terdaftar BPOM Indonesia.</p>
+      </div>
+      </div>
+      </div>
+      <div className="col-xs-4 col-md-4 col-sm-4">
+      <div className="icon-text">
+      <div className="footer-icon-slogan cc_cursor" style={{margin: "auto"}}><Image className="footer-icon-slogan-img" src="https://www.mandjur.co.id/media/wysiwyg/icon-slogan-2.jpg" alt="" width={114} height={114} layout="responsive"/></div>
+      <div className="text">
+      <h2><a href="#">MONEY BACK GUARANTED</a></h2>
+      <p>Jaminan uang kembali jika barang tidak sesuai pesanan.</p>
+      </div>
+      </div>
+      </div>
+      <div className="col-xs-4 col-md-4 col-sm-4">
+      <div className="icon-text">
+      <div className="footer-icon-slogan cc_cursor" style={{margin: "auto"}}><Image className="footer-icon-slogan-img" src="https://www.mandjur.co.id/media/wysiwyg/icon-slogan-4.jpg" alt="" width={114} height={114} layout="responsive"/></div>
+      <div className="text">
+      <h2><a href="#">SAFE WRAP</a></h2>
+      <p>Packing barang yang baik kiriman aman sampai tujuan.</p>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    </div>
   )
 }

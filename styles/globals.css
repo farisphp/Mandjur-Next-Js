@@ -587,7 +587,7 @@
   .cart-tax-total .price { display:inline !important; font-weight:normal !important; }
   .cart-tax-total-expanded { background-position:100% -52px; }
   
-  /* Class: std - styles for admin-controlled content */
+  /* className: std - styles for admin-controlled content */
   .std .subtitle { padding:0; }
   .std ol.ol { list-style:decimal outside;  }
   .std ul.disc { list-style:disc outside; margin:0 0 10px; }
@@ -4014,8 +4014,8 @@
   }
   .iner-text-icon{    display: inline-block;}
   .footer-icon-slogan{
-      float: left;
-      width: 100%;
+      /* float: left; */
+      width: 30%;
       border: 0px solid black;
   }
   .footer-icon-slogan-img{
@@ -4771,7 +4771,7 @@
   
   /* No JavaScript Fallback */
   /* If you are not using another script, such as Modernizr, make sure you
-   * include js that eliminates this class on page load */
+   * include js that eliminates this className on page load */
   .no-js .ma-relatedslider-container .slides > relatedslider-item:first-child {display: block;}
   .related-subtitle{display: none;}
   
