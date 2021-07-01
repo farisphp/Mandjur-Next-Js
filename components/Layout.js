@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Header.module.css'
+import logoMandjur from '../public/images/logo-new-mandjur.png'
 
 const Layout = () => {
     return (
@@ -14,6 +15,7 @@ const Layout = () => {
             <link rel="icon" href="/favicon.ico" />
             <link rel="stylesheet" type="text/css" href="https://www.mandjur.co.id/skin/frontend/mandjurimaxo/mandjurimaxo1/css/bootstrap.css" media="all" />
             <link rel="stylesheet" type="text/css" href="https://www.mandjur.co.id/skin/frontend/mandjurimaxo/mandjurimaxo1/css/bootstrap-theme.css" media="all" />
+            {/* <link rel="stylesheet" type="text/css" href="https://www.mandjur.co.id/skin/frontend/mandjurimaxo/mandjurimaxo1/css/font-awesome.min.css" media="all" /> */}
         </Head>
         <div className="wrapper">
             <div className="page">
@@ -52,9 +54,7 @@ const Layout = () => {
                                     <div id="mylogo" className="logo single-level-nav3">
                                     <Link href="/">
                                         <a className="logo">
-                                            <Image src="https://www.mandjur.co.id/skin/frontend/base/default/images/logo-new-mandjur.png" alt="PT Mandjur Sehat Abadi" 
-                                            width="100%" 
-                                            height="100%" 
+                                            <Image src={logoMandjur} alt="PT Mandjur Sehat Abadi" 
                                             />
                                         </a>
                                     </Link>
@@ -173,7 +173,8 @@ const Layout = () => {
                                                         <a href="https://www.mandjur.co.id/penyakit-ringan/amandel">
                                                         <span>Amandel</span>
                                                         </a>
-                </li><li className="level1 nav-1-2">
+                                                    </li>
+                                                    <li className="level1 nav-1-2">
                 <a href="https://www.mandjur.co.id/penyakit-ringan/darah-rendah">
                 <span>Anemia</span>
                 </a>

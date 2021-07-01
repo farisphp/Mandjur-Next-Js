@@ -3,5 +3,5 @@ module.exports = {
   images: {
     domains: ['www.mandjur.co.id'],
   },
-  target: "serverless"
+  target: "serverless",
 }
